@@ -1,0 +1,8 @@
+FROM node:14.17.5
+
+ENV LANG=C.UTF-8
+ENV TZ=Asia/Tokyo
+
+ENV CHOKIDAR_USEPOLLING=true
+
+WORKDIR /usr/src/app
